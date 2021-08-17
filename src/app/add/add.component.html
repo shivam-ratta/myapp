@@ -1,0 +1,8 @@
+<p>
+  add works!
+</p>
+
+<ion-input placeholder="Please enter Name" [value]="name" (input)="onNameChange($event)"></ion-input>
+<ion-input placeholder="Please enter Email Address" (input)="onEmailChange($event)"></ion-input>
+<ion-input placeholder="Please enter number" type="number" (input)="onMobileChange($event)"></ion-input>
+<ion-button (click)="addToList()"> Add To List</ion-button>
